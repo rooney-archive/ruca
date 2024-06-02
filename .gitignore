@@ -1,19 +1,29 @@
-# MAC
+#Mac
 *.DS_Store
 *.log
 *.tsbuildinfo
 
-# yarn berry, npm
+# npm, yarn
 .pnp.*
 .yarn/install-state.gz
 !.yarn/patches
 !.yarn/plugins
-!.yarn/relreases
+!.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-node_modules/
+**/packge-lock.json
+**/node_modules/
 
-# build results
+# build
 **/dist/*
 dist
 
+# storybook
+**/storybook-static/
+
+# next.js
+**/.next/
+**/out/
+
+# production
+**/build
