@@ -4,10 +4,11 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { ThemeProvider } from "@emotion/react";
-import { vars } from "@ruca/themes";
+import { classes, vars } from "@ruca/themes";
 import styled from "@emotion/styled";
 
 function App() {
+  console.log("t", classes.typography);
   const theme = {
     colors: vars.colors.$static.light,
   };
@@ -40,10 +41,8 @@ function View() {
 }
 
 const Text = styled.p`
-  color: ${({ theme }) => {
-    // @ts-ignore
-    return theme.colors.red[600];
-  }};
+  ${classes.typography.heading["4xl"]}
+  color: ${vars.colors.$scale.blue[500]};
 `;
 
 export default App;
