@@ -1,0 +1,19 @@
+# MAC
+*.DS_Store
+*.log
+*.tsbuildinfo
+
+# yarn berry, npm
+.pnp.*
+.yarn/install-state.gz
+!.yarn/patches
+!.yarn/plugins
+!.yarn/relreases
+!.yarn/sdks
+!.yarn/versions
+node_modules/
+
+# build results
+**/dist/*
+dist
+
