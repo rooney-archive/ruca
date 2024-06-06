@@ -8,7 +8,10 @@
   "scripts": {
     "build": "nx build",
     "graph": "nx run-many --target=build --graph",
-    "reset": "nx reset"
+    "reset": "nx reset",
+    "dev:all": "yarn dev:storybook & yarn dev:packages",
+    "dev:storybook": "nx storybook @ruca/storybook",
+    "dev:packages": "nx run-many --target=dev --project='@ruca/react-components-*'"
   },
   "packageManager": "yarn@4.2.2",
   "devDependencies": {

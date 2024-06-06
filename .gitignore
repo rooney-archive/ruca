@@ -27,3 +27,4 @@ dist
 
 # production
 **/build
+*storybook.log
