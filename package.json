@@ -12,6 +12,7 @@
   },
   "packageManager": "yarn@4.2.2",
   "devDependencies": {
-    "nx": "^19.2.0"
+    "nx": "^19.2.0",
+    "typescript": "^5.4.5"
   }
 }

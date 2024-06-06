@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build @ruca/themes",
+    "startTime": "2024-06-06T03:53:10.230Z",
+    "endTime": "2024-06-06T03:53:13.504Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@ruca/themes:build",
+      "target": "build",
+      "projectName": "@ruca/themes",
+      "hash": "17181458821901021210",
+      "startTime": "2024-06-06T03:53:10.234Z",
+      "endTime": "2024-06-06T03:53:13.503Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

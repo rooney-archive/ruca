@@ -2,7 +2,8 @@
   "version": "6.0",
   "nxVersion": "19.2.0",
   "deps": {
-    "nx": "^19.2.0"
+    "nx": "^19.2.0",
+    "typescript": "^5.4.5"
   },
   "pathMappings": {},
   "nxJsonPlugins": [],
@@ -31,11 +32,15 @@
       },
       {
         "file": "package.json",
-        "hash": "8192365895251875563"
+        "hash": "14143304901371007585"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "15322884351288772532"
       },
       {
         "file": "yarn.lock",
-        "hash": "837490272653000207"
+        "hash": "129078481610866594"
       }
     ],
     "projectFileMap": {
@@ -102,7 +107,7 @@
         },
         {
           "file": "packages/themes/tsconfig.json",
-          "hash": "1179432164812416385"
+          "hash": "10248009443664204963"
         }
       ]
     }
