@@ -1,0 +1,20 @@
+/Users/rooneybae/project/ruca/.pnp.cjs:10285
+  return Object.defineProperties(new Error(message), {
+                                 ^
+
+Error: Your application tried to access @fastcampus/esbuild-config, but it isn't declared in your dependencies; this makes the require call ambiguous and unsound.
+
+Required package: @fastcampus/esbuild-config (via "@fastcampus/esbuild-config/package.json")
+Required by: /Users/rooneybae/project/ruca/packages/themes/build.js
+
+    at makeError (/Users/rooneybae/project/ruca/.pnp.cjs:10285:34)
+    at resolveToUnqualified (/Users/rooneybae/project/ruca/.pnp.cjs:11923:21)
+    at Object.resolveToUnqualified (/Users/rooneybae/project/ruca/.pnp.cjs:12113:26)
+    at resolve$1 (file:///Users/rooneybae/project/ruca/.pnp.loader.mjs:2027:31)
+[90m    at nextResolve (node:internal/modules/esm/loader:163:28)[39m
+[90m    at ESMLoader.resolve (node:internal/modules/esm/loader:835:30)[39m
+[90m    at ESMLoader.getModuleJob (node:internal/modules/esm/loader:424:18)[39m
+[90m    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:77:40)[39m
+[90m    at link (node:internal/modules/esm/module_job:76:36)[39m
+
+Node.js v18.17.1
