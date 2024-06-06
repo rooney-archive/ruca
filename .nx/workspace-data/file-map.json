@@ -14,14 +14,6 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "nx.json",
-        "hash": "16609187910777566571"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "837490272653000207"
-      },
-      {
         "file": ".gitignore",
         "hash": "6317718244669649150"
       },
@@ -34,102 +26,19 @@
         "hash": "7802014129145701620"
       },
       {
+        "file": "nx.json",
+        "hash": "16609187910777566571"
+      },
+      {
         "file": "package.json",
-        "hash": "15679139291945499162"
+        "hash": "8192365895251875563"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "837490272653000207"
       }
     ],
     "projectFileMap": {
-      "test": [
-        {
-          "file": "services/test/.gitignore",
-          "hash": "5403484524555424706"
-        },
-        {
-          "file": "services/test/README.md",
-          "hash": "17911282315018038361"
-        },
-        {
-          "file": "services/test/package.json",
-          "hash": "5015171653378353794",
-          "deps": [
-            "npm:@emotion/react@11.11.4",
-            "npm:@emotion/styled@11.11.5",
-            "@ruca/themes",
-            "npm:@testing-library/jest-dom@5.17.0",
-            "npm:@testing-library/react@13.4.0",
-            "npm:@testing-library/user-event@13.5.0",
-            "npm:@types/jest@27.5.2",
-            "npm:@types/node@16.18.98",
-            "npm:@types/react@18.3.3",
-            "npm:@types/react-dom@18.3.0",
-            "npm:react@18.3.1",
-            "npm:react-dom@18.3.1",
-            "npm:react-scripts@5.0.1",
-            "npm:typescript@4.9.5",
-            "npm:web-vitals@2.1.4"
-          ]
-        },
-        {
-          "file": "services/test/public/favicon.ico",
-          "hash": "2949791817221603359"
-        },
-        {
-          "file": "services/test/public/index.html",
-          "hash": "15666785565663491307"
-        },
-        {
-          "file": "services/test/public/logo192.png",
-          "hash": "7585273181698778288"
-        },
-        {
-          "file": "services/test/public/logo512.png",
-          "hash": "9339365414554387981"
-        },
-        {
-          "file": "services/test/public/manifest.json",
-          "hash": "1447645250373428393"
-        },
-        {
-          "file": "services/test/public/robots.txt",
-          "hash": "2790380794362165217"
-        },
-        {
-          "file": "services/test/src/App.css",
-          "hash": "9202097824099893345"
-        },
-        {
-          "file": "services/test/src/App.tsx",
-          "hash": "10619541009396749349"
-        },
-        {
-          "file": "services/test/src/index.css",
-          "hash": "14056909652331273425"
-        },
-        {
-          "file": "services/test/src/index.tsx",
-          "hash": "9986858075715816501"
-        },
-        {
-          "file": "services/test/src/logo.svg",
-          "hash": "5137778160416929466"
-        },
-        {
-          "file": "services/test/src/react-app-env.d.ts",
-          "hash": "3195158367843515590"
-        },
-        {
-          "file": "services/test/src/reportWebVitals.ts",
-          "hash": "4905365886999342103"
-        },
-        {
-          "file": "services/test/src/setupTests.ts",
-          "hash": "16903885983588411080"
-        },
-        {
-          "file": "services/test/tsconfig.json",
-          "hash": "3664978063588679595"
-        }
-      ],
       "@ruca/themes": [
         {
           "file": "packages/themes/build.js",
