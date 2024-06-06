@@ -3,7 +3,19 @@
   "nxVersion": "19.2.0",
   "deps": {
     "nx": "^19.2.0",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-storybook": "^0.6.13",
+    "prettier": "^3.0.3"
   },
   "pathMappings": {},
   "nxJsonPlugins": [],
@@ -27,20 +39,20 @@
         "hash": "7802014129145701620"
       },
       {
-        "file": "nx.json",
-        "hash": "16609187910777566571"
-      },
-      {
         "file": "package.json",
-        "hash": "14143304901371007585"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "15322884351288772532"
+        "hash": "15914046138812165089"
       },
       {
         "file": "yarn.lock",
         "hash": "129078481610866594"
+      },
+      {
+        "file": "nx.json",
+        "hash": "16609187910777566571"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "15322884351288772532"
       }
     ],
     "projectFileMap": {
