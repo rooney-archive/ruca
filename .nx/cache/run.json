@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx build @ruca/themes",
-    "startTime": "2024-06-06T08:51:03.889Z",
-    "endTime": "2024-06-06T08:51:03.920Z",
+    "command": "nx build @ruca/react-components-layout",
+    "startTime": "2024-06-06T09:02:27.093Z",
+    "endTime": "2024-06-06T09:02:34.966Z",
     "inner": false
   },
   "tasks": [
@@ -10,22 +10,33 @@
       "taskId": "@ruca/esbuild-config:build",
       "target": "build",
       "projectName": "@ruca/esbuild-config",
-      "hash": "8407905200088741555",
-      "startTime": "2024-06-06T08:51:03.894Z",
-      "endTime": "2024-06-06T08:51:03.915Z",
+      "hash": "12592722524380030414",
+      "startTime": "2024-06-06T09:02:27.098Z",
+      "endTime": "2024-06-06T09:02:27.823Z",
       "params": "",
-      "cacheStatus": "local-cache-hit",
+      "cacheStatus": "cache-miss",
       "status": 0
     },
     {
       "taskId": "@ruca/themes:build",
       "target": "build",
       "projectName": "@ruca/themes",
-      "hash": "15135704788868592756",
-      "startTime": "2024-06-06T08:51:03.917Z",
-      "endTime": "2024-06-06T08:51:03.919Z",
+      "hash": "2506924229172800291",
+      "startTime": "2024-06-06T09:02:27.824Z",
+      "endTime": "2024-06-06T09:02:31.457Z",
       "params": "",
-      "cacheStatus": "local-cache-hit",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@ruca/react-components-layout:build",
+      "target": "build",
+      "projectName": "@ruca/react-components-layout",
+      "hash": "17073436300089622605",
+      "startTime": "2024-06-06T09:02:31.458Z",
+      "endTime": "2024-06-06T09:02:34.966Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
       "status": 0
     }
   ]
